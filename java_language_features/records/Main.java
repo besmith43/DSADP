@@ -35,6 +35,7 @@ public class Main {
     }
 
 
+    // this is also an example of pass by reference rather than pass by value
     public static void getMarried(PersonClass a, String newLastName) {
         a.lastname = newLastName;
     }
